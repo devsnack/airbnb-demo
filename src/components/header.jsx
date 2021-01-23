@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Country from '../common/country';
+import Face from '../common/avatar'
 import SearchIcon from '@material-ui/icons/Search';
 import PublicIcon from '@material-ui/icons/Public';
 import IconButton from '@material-ui/core/IconButton';
@@ -23,7 +24,8 @@ const Header = ()=>{
             <IconButton aria-label="delete">
              <PublicIcon></PublicIcon>
             </IconButton>  
-                <Country></Country>
+            <Country></Country>
+            <Face></Face>
             </div>
         </div>
     )

@@ -31,6 +31,12 @@
   outline: none;
   border: none;
   height: 70%;
+  width: 80%;
+  line-height: 10vh;
+  font-size: 18px;
+  text-transform: capitalize;
+  background: #eee;
+  border-radius: 20px;
 }
 .header__container .icon__search {
   margin-left: auto;
