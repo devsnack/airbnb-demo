@@ -35,3 +35,8 @@
 .header__container .icon__search {
   margin-left: auto;
 }
+.header__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,6 +1,9 @@
-import { render } from '@testing-library/react';
-import React, { Component } from 'react';
+
+import React from 'react';
+import Country from '../common/country';
 import SearchIcon from '@material-ui/icons/Search';
+import PublicIcon from '@material-ui/icons/Public';
+import IconButton from '@material-ui/core/IconButton';
 import "../css/header.css"
 
 const Header = ()=>{
@@ -15,8 +18,12 @@ const Header = ()=>{
                <input type="text"></input>
                 <SearchIcon  className="icon__search" color="primary" onClick={()=>console.log("clocked")}></SearchIcon>
             </div>
-             
-                
+            </div>
+            <div className="header__right">
+            <IconButton aria-label="delete">
+             <PublicIcon></PublicIcon>
+            </IconButton>  
+                <Country></Country>
             </div>
         </div>
     )
