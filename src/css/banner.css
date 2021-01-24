@@ -1,0 +1,18 @@
+.banner__container {
+  position: relative;
+  height: 50vh;
+  background: url("../img/banner.jpeg") center;
+}
+
+.banner__poster {
+  box-sizing: border-box;
+  width: 30vw;
+  height: 100%;
+  background: #000;
+  color: white;
+  padding-top: 20vh;
+}
+.bt__explore {
+  color: white;
+  background: #ff5a60;
+}

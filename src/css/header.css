@@ -35,7 +35,7 @@
   line-height: 10vh;
   font-size: 18px;
   text-transform: capitalize;
-  background: #eee;
+  background: rgb(250 246 246 / 65%);
   border-radius: 20px;
 }
 .header__container .icon__search {
